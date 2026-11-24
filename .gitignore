@@ -1,0 +1,21 @@
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Generated frontend output
+frontend/dist/
+
+# Runtime databases and logs
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db

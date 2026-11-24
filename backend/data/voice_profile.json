@@ -1,0 +1,8 @@
+{
+  "trained": true,
+  "userName": "Atharva",
+  "calibratedAt": "2026-11-22T21:08:15.192Z",
+  "customPromptKeywords": "Atharva, AURA, Hello AURA,, Schedule a meeting of the next date at 3 PM., Remind me to submit my assignment at 6 PM., What meetings do I have this week?",
+  "micSensitivity": 1.15,
+  "samplesCount": 4
+}

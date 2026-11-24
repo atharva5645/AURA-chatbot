@@ -1,0 +1,27 @@
+{
+  "name": "aura-assistant",
+  "version": "1.0.0",
+  "description": "AURA — Atharva's Intelligent Reminder Assistant (Voice-enabled College Project)",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "dev": "node run.js",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "train": "cd backend && npm run train",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "aura",
+    "voice-assistant",
+    "chatbot",
+    "nlp",
+    "sqlite",
+    "react",
+    "vite",
+    "express",
+    "college-project"
+  ],
+  "author": "Atharva",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "aura-backend",
+  "version": "1.0.0",
+  "description": "Backend API and local NLP engine for AURA - Atharva's Intelligent Reminder Assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "train": "node ml/train.js"
+  },
+  "keywords": ["aura", "chatbot", "meeting-assistant", "voice-assistant", "sqlite"],
+  "author": "Atharva",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
